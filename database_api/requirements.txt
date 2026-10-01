@@ -4,8 +4,8 @@
 # Core
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
-python-multipart==0.0.6
-python-dotenv==1.0.0
+python-multipart==0.0.31
+python-dotenv==1.2.2
 
 # Supabase
 supabase
@@ -15,8 +15,8 @@ sqlalchemy[asyncio]==2.0.23
 asyncpg==0.29.0
 
 # JWT verification (for Supabase tokens)
-python-jose[cryptography]==3.3.0
-PyJWT==2.8.0
+python-jose[cryptography]==3.4.0
+PyJWT==2.15.0
 
 # Validation
 pydantic==2.5.2
